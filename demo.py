@@ -11,6 +11,8 @@ Options:
 """ 
 
 from docopt import docopt
-opt = docopt(__doc__)
-print(opt)
-print(type(opt))
+
+if __name__ == '__main__':
+    opt = docopt(__doc__)
+    print(opt)
+    print(type(opt))
